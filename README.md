@@ -43,17 +43,9 @@ A simple, functional QR code generator built with **HTML5**, **CSS3**, and **Jav
     - Enter any text or URL into the input field.
     - The QR code will be generated instantly.
 
-## Example Usage
-
-```html
-<input type="text" id="qr-input" placeholder="Enter text or URL">
-<div id="qr-code"></div>
-<button id="download-btn">Download</button>
-```
-
 ## How It Works
 
-- The project uses the [Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) or a JavaScript implementation to draw and export the QR code.
+- The project uses qrserver.com API and JavaScript to draw and export the QR code.
 - All processing is handled client-side—no data is sent to a server.
 
 ## Customization
