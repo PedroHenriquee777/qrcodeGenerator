@@ -1,17 +1,29 @@
 # Simple QR Code Generator
 
-A straightforward and fully functional QR code generator built with **HTML5**, **CSS3**, and **JavaScript**. This project enables users to easily generate QR codes for any text or URL, directly in their web browser—no backend or external dependencies required.
+A simple, functional QR code generator built with **HTML5**, **CSS3**, and **JavaScript**. This project lets users instantly generate QR codes for any text or URL, directly in their browser—no backend or external dependencies required.
 
 ## Features
 
 - Generate QR codes instantly as you type
-- Responsive and clean user interface
-- Download generated QR codes as images (PNG)
-- No frameworks or libraries required—pure HTML, CSS, and JavaScript
+- Clean and responsive user interface
+- Download generated QR codes as PNG images
+- Pure HTML, CSS, and JavaScript (no frameworks or libraries required)
 
-## Demo
+## Project Structure
 
-![Screenshot of QR Code Generator](screenshot.png)
+```
+.
+├── index.html
+└── src
+    ├── css
+    │   └── style.css
+    └── Js
+        └── script.js
+```
+
+- **index.html**: Main HTML file (entry point)
+- **src/css/style.css**: Stylesheet for the application
+- **src/Js/script.js**: JavaScript logic for QR code generation
 
 ## Getting Started
 
@@ -19,40 +31,21 @@ A straightforward and fully functional QR code generator built with **HTML5**, *
 
 - A modern web browser (Chrome, Firefox, Edge, Safari, etc.)
 
-### Usage
+### How to Use
 
-1. **Download or Clone this Repository**
+1. **Clone or Download the Repository**
     ```bash
     git clone https://github.com/your-username/your-repo-name.git
     ```
 2. **Open the Application**
-    - Open `index.html` in your preferred web browser.
+    - Open `index.html` in your browser.
 
 3. **Generate a QR Code**
     - Enter any text or URL into the input field.
     - The QR code will be generated instantly.
     - Click "Download" to save the QR code as an image.
 
-## Project Structure
-
-```
-.
-├── index.html
-├── styles.css
-├── script.js
-└── README.md
-```
-
-- **index.html**: Main HTML file
-- **styles.css**: Styles for the application
-- **script.js**: JavaScript logic for QR code generation
-
-## How It Works
-
-- The app uses the [Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) to draw the QR code.
-- No external dependencies—everything is handled client-side.
-
-## Example
+## Example Usage
 
 ```html
 <input type="text" id="qr-input" placeholder="Enter text or URL">
@@ -60,9 +53,14 @@ A straightforward and fully functional QR code generator built with **HTML5**, *
 <button id="download-btn">Download</button>
 ```
 
+## How It Works
+
+- The project uses the [Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) or a JavaScript implementation to draw and export the QR code.
+- All processing is handled client-side—no data is sent to a server.
+
 ## Customization
 
-You can easily style and extend the generator to fit your needs—customize colors, sizes, or add more features!
+Feel free to modify the styles, layout, or extend the functionality to suit your needs!
 
 ## License
 
@@ -70,4 +68,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-**Enjoy generating QR codes effortlessly!**
+**Enjoy generating QR codes quickly and easily!**
