@@ -43,6 +43,10 @@ A simple, functional QR code generator built with **HTML5**, **CSS3**, and **Jav
     - Enter any text or URL into the input field.
     - The QR code will be generated instantly.
 
+
+## Demo
+<img width="1437" height="900" alt="image" src="https://github.com/user-attachments/assets/e978d98e-911a-433d-a745-3a5c7344747c" />
+
 ## How It Works
 
 - The project uses qrserver.com API and JavaScript to draw and export the QR code.
