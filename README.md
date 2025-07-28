@@ -6,7 +6,6 @@ A simple, functional QR code generator built with **HTML5**, **CSS3**, and **Jav
 
 - Generate QR codes instantly as you type
 - Clean and responsive user interface
-- Download generated QR codes as PNG images
 - Pure HTML, CSS, and JavaScript (no frameworks or libraries required)
 
 ## Project Structure
